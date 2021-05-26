@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>D-Suite Application</Name>
+    <!--
+      For .dll installed in revit plugin path:
+      C:\ProgramData\Autodesk\Revit\Addins\20xx
+    -->
+    <Assembly>RevitPluginSuiteRibbon.dll</Assembly>
+    <!--
+      For .dll installed in another path:
+      <Assembly>C:\PATH\RevitPluginSuiteRibbon.dll</Assembly>
+    -->
+    <AddInId>604b1052-f742-4951-8576-c261d1993108</AddInId>
+    <FullClassName>RevitPluginSuiteRibbon.App</FullClassName>
+    <VendorId>GWS</VendorId>
+    <VendorDescription>GWS http://geraldsouthwood.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
